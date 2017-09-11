@@ -164,12 +164,14 @@
             <email>${project.organization.url}</email>
           </properties>
           <excludes>
+            <exclude>**/.editorconfig</exclude>
             <exclude>**/pom.xml</exclude>
             <exclude>**/README.md</exclude>
             <exclude>**/LICENSE.txt</exclude>
             <exclude>**/checkstyle.xml</exclude>
             <exclude>src/test/resources/**</exclude>
             <exclude>src/main/resources/**</exclude>
+            <exclude>samples/**</exclude>
           </excludes>
           <mapping>
             <java>SLASHSTAR_STYLE</java>
